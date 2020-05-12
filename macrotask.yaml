@@ -1,0 +1,22 @@
+# macrotasks:
+dates:
+  StartDate: 2020-01-01
+  EndDate: 2020-12-31
+
+forexplore:
+
+  PredictionMethod:
+ #   - 14_prev_days: []
+ #   - exp:
+ #     - 0.1
+    - exp:
+      - 0.2
+    - exp:
+      - 0.3
+  Rasf:
+    - BaseLine
+    - 5
+  #  - 3
+  DaysForSigmaSS:
+    - 60
+    - 45
